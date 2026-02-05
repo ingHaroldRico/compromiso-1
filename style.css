@@ -1,0 +1,31 @@
+.contenedor{
+    display: flex;
+    justify-content: center; /*centra horizontal */
+    align-items: center; /*centra vertical */
+    min-height: 50vh; /*Ocupa el Alto de la Pantalla */
+}
+.formulario{
+    width: 20%;
+    height: 30%;
+    background-color: rgb(33, 9, 214);
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+label{
+    display: block;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: medium;
+    margin-top: 10px;
+    color: blue;
+}
