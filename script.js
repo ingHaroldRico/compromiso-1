@@ -1,15 +1,6 @@
-let estado=false
-const ElementoBoton=document.getElementById("boton")
-   
-function cambiarTexto() {
-    if(estado==false){
-         
-         ElementoBoton.innerText="Adios"  
-    }
-    else if(estado==true){
-        
-        ElementoBoton.innerText="Hola"
-       
-    }
-    estado = !estado
-}      
+function saludar(){
+    const nombre=document.getElementById('nombre').value
+    const apellido=document.getElementById('apellido').value
+
+    alert(`Bienvenido, ${nombre}  ${apellido}.`)
+}

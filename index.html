@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingreso</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./style.css"> 
 </head>
-<body class="claro">
-<button id="boton" onclick="cambiarTema()">Tema Claro</button>
+<body>
+<div class="contenedor">
+    <form action="" class="formulario">
+        <label for="nombre">Nombres</label>
+        <input type="text" id="nombre" placeholder="Nombres">
+        <label for="apellido">Apellidos</label>
+        <input type="text" id="apellido" placeholder="Apellidos">
+        <button onclick="saludar()">Saludar</button>
+    </form>
+</div>
 <script src="./script.js"></script>
 </body>
 </html>
